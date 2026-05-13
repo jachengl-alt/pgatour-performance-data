@@ -1,2 +1,7 @@
-# pgatour-performance-data
-The official statistics site of the PGA Tour is the best data source for this project because it provides accurate, publicly available performance data directly from the tour.
+# PGA Tour Strategic Analytics & Financial ROI Project This repository contains a professional-grade data science pipeline that identifies the technical pillars of professional golf and evaluates their direct correlation with financial success.
+pga_raw_combined_master.csv (The Raw Data)-This file is a massive historical "dump" created by consolidating six different datasets, covering PGA Tour statistics from 2000 to 2026. It represents the unfiltered state of the project, containing redundant columns, inconsistent naming conventions, and non-numeric characters like dollar signs and commas. Because it includes every record found across various cloud-hosted CSVs and web-scraped data, it serves as the necessary starting point before any refining logic is applied.
+pgatour_raw.db - Sqlite database file containing pgatour player data scraped in file 1.
+pgatour_raw.csv - CSV file containing raw data from file #2.
+pgatour_cleaned.csv - CSV file containing cleaned version of pgatour_raw.csv. The process I used to clean this data can be found in the PGA tour - EDA notebook in this repository.
+PGA Tour Machine Learning Project - Classification.ipynb - Contains a machine learning project focused on classifying players as tournament and non-tournament winners.
+PGA Tour - EDA - Contains exploratory data analysis for the dataset in the pgatour_raw.db database file. This EDA includes data cleaning and formatting, feature investigation, and a thorough analysis of the PGA tour statistics collected ov
